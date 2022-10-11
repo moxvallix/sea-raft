@@ -1,0 +1,1 @@
+execute as @a in ocean:ocean run function ocean:player

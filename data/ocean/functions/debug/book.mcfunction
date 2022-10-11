@@ -1,0 +1,1 @@
+give @s written_book{pages:['{"text":"You have been stranded out at sea. All you have are the clothes on your back, the rubble of the crash, and a small raft you managed to string together in order to survive.\\n\\nFind a way to signal for help."}'],title:"Sea Raft",author:Moxvallix}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:cooked_salmon"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spider_eye",
+    "count": 16
+  }
+}

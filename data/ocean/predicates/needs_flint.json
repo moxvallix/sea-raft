@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:flint_and_steel"
+            ],
+            "nbt": "{\"CanPlaceOn\":[\"minecraft:campfire\"]}"
+          }
+        }
+      }
+    }
+  }
+]

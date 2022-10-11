@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "ocean:at_base"
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "player"
+      },
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:firework_rocket"
+          ]
+        }
+      }
+    }
+  }
+]

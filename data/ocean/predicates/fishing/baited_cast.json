@@ -1,0 +1,15 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "ocean.player.fishing": {
+        "min": 1
+      }
+    }
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "ocean:fishing/has_bait"
+  }
+]

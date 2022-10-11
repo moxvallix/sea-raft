@@ -1,0 +1,1 @@
+give @s oak_sign{BlockEntityTag:{Color:"black",Text2:'{"text":"[Reset Merchant]","clickEvent":{"action":"run_command","value":"/trigger ocean.reset.merchant"}}'}} 1

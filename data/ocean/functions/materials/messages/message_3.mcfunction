@@ -1,0 +1,2 @@
+scoreboard players set $message ocean.materials.misc 4
+give @s paper{display:{Name:'{"text":"Tattered Message","italic":false}',Lore:['{"text":"…the locals in these waters are always open for a","color":"white","italic":false}','{"text":"good trade. Many useful materials can be bought,","color":"white","italic":false}','{"text":"using a shiny trinket…","color":"white","italic":false}']}} 1

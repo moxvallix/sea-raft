@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Message in a Bottle",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Recipes:[\"ocean:oak_slab\",\"ocean:oak_planks\",\"ocean:wooden_sword\"]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "ocean:messages/message_1"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Message in a Bottle - 2",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Recipes:[\"ocean:oak_boat\",\"ocean:fishing_rod\"]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "ocean:messages/message_2"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Message in a Bottle - 3",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Recipes:[\"ocean:flint_and_steel\",\"ocean:blaze_rod\",\"ocean:firework_rocket\"]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "ocean:messages/message_3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

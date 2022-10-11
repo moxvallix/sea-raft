@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "$message"
+        },
+        "score": "ocean.materials.misc"
+      },
+      "range": {
+        "min": 3
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "player",
+        "recipes": {
+          "ocean:oak_boat": true,
+          "ocean:blaze_rod": false
+        }
+      }
+    }
+  }
+]

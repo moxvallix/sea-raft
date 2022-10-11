@@ -1,0 +1,2 @@
+execute in ocean:ocean run summon firework_rocket 2 63 1 {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16711680,16763161,2883356,2062591]}]}}}}
+schedule function ocean:gameplay/fireworks 5s

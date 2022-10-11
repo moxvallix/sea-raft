@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -2,
+          "name": "ocean:fishing/food"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "quality": 2,
+          "name": "ocean:fishing/lore",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "ocean:fishing/bobber_has_bait"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

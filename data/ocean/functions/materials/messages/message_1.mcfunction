@@ -1,0 +1,2 @@
+scoreboard players set $message ocean.materials.misc 2
+give @s paper{display:{Name:'{"text":"Tattered Message","italic":false}',Lore:['{"text":"…I have perfected the art of weaving together","color":"white","italic":false}','{"text":"small branches and twigs in order to make","color":"white","italic":false}','{"text":"a rudimentary plank…","color":"white","italic":false}']}} 1

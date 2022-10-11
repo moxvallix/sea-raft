@@ -1,0 +1,2 @@
+scoreboard players set $message ocean.materials.misc 3
+give @s paper{display:{Name:'{"text":"Tattered Message","italic":false}',Lore:['{"text":"…of course, no raft is complete without an oar.","color":"white","italic":false}','{"text":"But using sticks, planks and slabs should do","color":"white","italic":false}','{"text":"the trick…","color":"white","italic":false}']}} 1

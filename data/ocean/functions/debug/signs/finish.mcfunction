@@ -1,0 +1,1 @@
+give @p oak_sign{BlockEntityTag:{Color:"black",Text1:'{"text":"Right click me"}',Text2:'{"text":"with "}',Text3:'{"translate":"item.minecraft.firework_rocket"}',Text4:'{"text":"to finish game!","clickEvent":{"action":"run_command","value":"/trigger ocean.finish"}}'}} 1

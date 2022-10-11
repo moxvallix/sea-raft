@@ -1,0 +1,1 @@
+give @s oak_sign{BlockEntityTag:{Color:"black",Text2:'{"text":"[Reset Nomad]","clickEvent":{"action":"run_command","value":"/trigger ocean.reset.nomad"}}'}} 1
